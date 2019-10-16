@@ -13,7 +13,7 @@ class PriorityQueue {
 
 	shift() {
 		if(this.size() === 0) throw Error;
-		this.heap.pop();
+		return this.heap.pop();
 	}
 
 	size() {
